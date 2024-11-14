@@ -10,8 +10,7 @@
         <option value={filter.value}>{filter.value}</option>
     {/each}
 </select>
-
-<h2>De gebruiker kiest : {selectedOption}</h2>
+<h2>{filterLabel} : {selectedOption}</h2>
 
 <style>
     h2 {
