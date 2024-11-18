@@ -1,5 +1,5 @@
 <script>
-    import Dropdown from '$lib/dropdownFilter.svelte';
+    import Dropdown from '$lib/selectDropdown.svelte';
 
     const expertises = [
         { value: "Design" },
