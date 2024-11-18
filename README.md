@@ -1,38 +1,10 @@
-# sv
+# DDA Vacature / Dropdown
+<img width="600" src="https://github.com/user-attachments/assets/e7e30816-cdee-4bda-8d2a-b75133eb5908">
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+### Analyse / Opdracht
+Omdat wij voor de DDA Vacature site een redelijk statische website moesten bouwen en al verschillende componenten hebben gemaakt in het vorige semester was er nog weinig keuze over. Gezamenlijk hebben we naar het design gekeken en verdeeld wie welk component zou gaan bouwen. Ik heb gekozen voor het dropdown menu omdat ik in het teamproject de gehele filter section zou bouwen met onder andere de zoekbalk maar hier nog niet aan toe was gekomen. Dit component komt op 3 pagina's voor in het design en naar mijn mening een redelijk goed voorbeeld om hier nogmaals mee te oefenen.
 
-## Creating a project
+### [Ontwerp Dropdown in Figma 🎨](https://www.figma.com/design/Fvnt2ejJqS6ZgAi0baO1z8/Component-building-block?node-id=0-1&t=tTiwQ5eM9c5oY42I-1)
+> Het ontwerp met verschillende variaties. 
 
-If you're seeing this, you've probably already done this step. Congrats!
-
-```bash
-# create a new project in the current directory
-npx sv create
-
-# create a new project in my-app
-npx sv create my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+### 
