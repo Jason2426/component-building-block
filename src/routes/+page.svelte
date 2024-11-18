@@ -1,5 +1,5 @@
 <script>
-    import Dropdown from '$lib/selectDropdown.svelte';
+    import Select from '$lib/selectDropdown.svelte';
 
     const expertises = [
         { value: "Design" },
@@ -22,20 +22,33 @@
     let selectedDesign, selectedDevelopment, selectedLanguage = "";
 </script>
 
-<Dropdown
-    bind:selectedOption={selectedDesign}
-    filterLabel="Expertise"
-    filter={expertises} 
-/>
+    <h1>Select & Option element</h1>
+    <Select
+        bind:selectedOption={selectedDesign}
+        filterLabel="Expertise"
+        filter={expertises} 
+    />
 
-<Dropdown
-    bind:selectedOption={selectedDevelopment}
-    filterLabel="Provincie"
-    filter={provincies} 
-/>
+    <Select
+        bind:selectedOption={selectedDevelopment}
+        filterLabel="Provincie"
+        filter={provincies} 
+    />
 
-<Dropdown 
-    bind:selectedOption={selectedLanguage}
-    filterLabel="Voertaal"
-    filter={voertalen}
-/>
+    <Select
+        bind:selectedOption={selectedLanguage}
+        filterLabel="Voertaal"
+        filter={voertalen}
+    />
+
+    <h1>Details & summary</h1>
+
+
+
+<style>
+    h1 {
+        color: rgb(0, 174, 255);
+    }
+
+
+</style>
