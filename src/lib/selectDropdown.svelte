@@ -2,6 +2,7 @@
     export let selectedOption = "";
     export let filterLabel = "";
     export let filter = [];
+
 </script>
 
 <select bind:value={selectedOption}>
@@ -13,13 +14,9 @@
 <h2>{filterLabel} : {selectedOption}</h2>
 
 <style>
-    h2 {
-        color: white;
-    }
     select {
         background-color: inherit;
-        color: white;
-        border: 1px solid white;
+        border: 1px solid black;
         padding: 1em 1.5em;
     }
 </style>
