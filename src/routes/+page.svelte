@@ -1,5 +1,6 @@
 <script>
     import Select from '$lib/selectDropdown.svelte';
+    import Detail from '$lib/detailDropdown.svelte';
 
     const expertises = [
         { value: "Design" },
@@ -42,7 +43,9 @@
     />
 
     <h1>Details & summary</h1>
-
+    <Detail
+        filterLabel="Expertise"
+     />
 
 
 <style>
