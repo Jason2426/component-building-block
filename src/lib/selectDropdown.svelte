@@ -1,6 +1,7 @@
 <script>
     export let selectedOption = "";
     export let filterLabel = "";
+    export let text = ""
     export let filter = [];
 </script>
 
@@ -10,6 +11,8 @@
         <option value={filter.value}>{filter.value}</option>
     {/each}
 </select>
+
+{text}
 <!-- <h1>{filterLabel} : {selectedOption}</h1> -->
 
 <style>
