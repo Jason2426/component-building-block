@@ -9,14 +9,14 @@
         { value: "Management" },
     ];
 
-    const soorten = [
+    const sorts = [
         { value: "Full-time" },
         { value: "Part-time" },
         { value: "Min-max" },
         { value: "Stage" },
     ];
 
-    const provincies = [
+    const provinces = [
         { value: "Noord-holland" },
         { value: "Zuid-holland" },
         { value: "Utrecht" },
@@ -26,7 +26,7 @@
         { value: "Zeeland" },
     ];
 
-    const voertalen = [
+    const languages = [
         { value: "Nederlands" },
         { value: "Engels" },
         { value: "Spaans" },
@@ -47,7 +47,7 @@
         <Select
             bind:selectedOption={selectedType}
             filterLabel="Soort"
-            filter={soorten}
+            filter={sorts}
         />
         <Select
             bind:selectedOption={selectedProvince}
@@ -57,7 +57,7 @@
         <Select
             bind:selectedOption={selectedLanguage}
             filterLabel="Voertaal"
-            filter={voertalen}
+            filter={languages}
         />
     </section>
 </main>
